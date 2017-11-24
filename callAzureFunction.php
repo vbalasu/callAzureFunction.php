@@ -1,5 +1,5 @@
 <?php
-echo callAzureFunction("https://cloudmaticafunctions.azurewebsites.net/api/echo?code=JPPXiWIHCmGciaQ6Kj4qpmayDkXcIBFBi68GXziYkMMeWAUMIZ388Q%3D%3D&clientId=default", "{\"text\":\"PHP Postman\"}");
+//USAGE: echo callAzureFunction("https://cloudmaticafunctions.azurewebsites.net/api/echo?code=JPPXiWIHCmGciaQ6Kj4qpmayDkXcIBFBi68GXziYkMMeWAUMIZ388Q%3D%3D&clientId=default", "{\"text\":\"PHP Postman\"}");
 
 function callAzureFunction($url, $json) {
 	$curl = curl_init();
